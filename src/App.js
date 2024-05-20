@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { AdminContext } from "./pages/ContextAPI/CreateContext";
+import { Dashboard } from "./pages/ContextAPI/Dashboard";
+import { Login } from "./pages/ContextAPI/Login";
+import { Main } from "./pages/ContextAPI/Main";
+import DropdownTask, { ColorDropdown } from "./pages/Dropdown";
+import FormTask from "./pages/FormSubmission";
+import { LetterTiles } from "./pages/LetterTiles/LetterTiles";
+import { Game, QuizBuilder } from "./pages/QuizBuilder";
+import SignalTask from "./pages/Signal";
+import ToggleBtn, { LiveParagraph } from "./pages/ToggleBtn";
+import { WeatherDashboard } from "./pages/WeatherDashboard";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <DropdownTask /> */}
+      {/* <SignalTask /> */}
+      {/* <ToggleBtn /> */}
+      {/* <ColorDropdown /> */}
+      {/* <FormTask /> */}
+      {/* <Main /> */}
+      {/* <LiveParagraph /> */}
+      {/* <LetterTiles /> */}
+      {/* <QuizBuilder /> */}
+      {/* <Game /> */}
+      <WeatherDashboard />
     </div>
   );
 }

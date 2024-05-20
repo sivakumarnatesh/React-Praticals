@@ -1,0 +1,40 @@
+.signalBody{
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  }
+  .signalWhite {
+    margin: 10px 0;
+    width: 15vw;
+    height: 15vh;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .signalRed {
+    margin: 10px 0;
+    width: 15vw;
+    height: 15vh;
+    border-radius: 50%;
+    background-color: red;
+  }
+  
+  .signalYellow {
+    margin: 10px 0;
+    width: 15vw;
+    height: 15vh;
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  
+  .signalGreen {
+    margin: 10px 0;
+    width: 15vw;
+    height: 15vh;
+    border-radius: 50%;
+    background-color: green;
+  }
+  

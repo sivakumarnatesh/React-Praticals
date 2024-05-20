@@ -1,0 +1,18 @@
+.Letter {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  .SubLetter {
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+  }
+}
